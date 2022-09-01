@@ -15,8 +15,6 @@ const student = {
 
 }
 
-const info = student.exam()
-console.log(info)
-const info1 = student.friend
-console.log(info1)
+const {studentName, age, ...adress} = student;
 
+console.log(adress)
